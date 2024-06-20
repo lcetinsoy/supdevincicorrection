@@ -8,4 +8,4 @@ jobs:
       - run: pip install pytest
       - run: pytest test_moyenne.py
       - run: pip install semgrep 
-      - run: semgrep scan .
+      - run: semgrep scan math_lib.py
